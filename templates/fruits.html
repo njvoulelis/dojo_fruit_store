@@ -25,7 +25,14 @@
           <div class="container">
             <h1 class="jumbotron-heading">Dojo Fruits</h1>
             <p>Please figure out how to display the images here...</p>
-
+            <div class="container">
+              <img src="{{ url_for('static', filename='img/apple.png')}}" class="img-thumbnail" alt="apple image">
+              <img src="{{ url_for('static', filename='img/blackberry.png')}}" class="img-thumbnail" alt="blackberry image">
+            </div>
+            <div class="container">
+              <img src="{{ url_for('static', filename='img/raspberry.png')}}" class="img-thumbnail" alt="raspberry image">
+              <img src="{{ url_for('static', filename='img/strawberry.png')}}" class="img-thumbnail" alt="strawberry image">
+            </div>
             <p>
               <a href="/" class="btn btn-primary my-2">Go back</a>
             </p>
